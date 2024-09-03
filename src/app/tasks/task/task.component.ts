@@ -5,8 +5,8 @@ import { TaskService } from '../tasks.service';
 
 @Component({
   selector: 'app-task',
-  standalone: true,
-  imports: [DatePipe],
+  // standalone: true,
+  // imports: [DatePipe],
   templateUrl: './task.component.html',
   styleUrl: './task.component.css'
 })
